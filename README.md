@@ -23,4 +23,17 @@ RoleFit AI is an explainable web app that helps Diploma and entry-level students
 5. The final score is calculated as:
 
 ```text
+
 Final score = 65% exact skill match + 35% NLP text similarity
+## Basic Evaluation
+
+I tested the role-ranking logic with three small, hand-written profile examples:
+
+- Data Analyst profile
+- Web Developer profile
+- QA Tester profile
+
+The system predicted the expected top role in all 3 cases.
+
+```text
+Basic evaluation accuracy: 100.0% (3/3)
